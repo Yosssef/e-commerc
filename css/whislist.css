@@ -121,14 +121,7 @@ nav ul .pages .Pages-Menu li:not(:last-child) a {
     width: 70%;
   }
 }
-@media screen and (max-width: 992px) {
-  nav .Address-Menu {
-    display: none;
-  }
-  nav .menu {
-    display: flex;
-  }
-}
+
 @media screen and (max-width: 992px) and (min-width: 769px) {
   nav .container {
     padding: 0 5%;
