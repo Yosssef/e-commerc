@@ -220,7 +220,7 @@ nextBtnTrend.addEventListener("click", () => {
     }
   }
   trends.style.transform = `translateX(${-x}px)`;
-});*/
+});
 
 pervBtnTrend.addEventListener("click", () => {
   x -= 100;
@@ -229,7 +229,7 @@ pervBtnTrend.addEventListener("click", () => {
   }
   trends.style.transform = `translateX(${-x}px)`;
 });
-
+*/
 /* fun check if log in*/
 
 function iflogin(destnation, prId) {
