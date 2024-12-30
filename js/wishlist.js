@@ -75,10 +75,7 @@ async function delProduct(prId) {
     }
     wishlistpro=newPro
     console.log(wishlistpro)
-    if(wishlistpro.length==0){
-      isempty=true;
-    }
-    console.log(isempty)
+    
     disProducts();
   }
 }
@@ -95,7 +92,7 @@ async function addToCart(prId) {
     },
     body: JSON.stringify(data),
   });
-  let result = await res.json();
+  
   
 }
 

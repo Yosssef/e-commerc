@@ -71,9 +71,11 @@ async function updateCartItem(prId ,num ,op) {
       count: num + 1,
     };
   }else{
+  
     data= {
       count: num - 1,
-    };
+    };   
+  
   }
   let res = await fetch(`https://ecommerce.routemisr.com/api/v1/cart/${prId}`, {
     method: "put",
